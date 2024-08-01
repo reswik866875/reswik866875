@@ -1,0 +1,84 @@
+body
+{
+    background-image: url(/Contacts/bg.jpg);
+    background-size: cover;
+    background-position: flex;
+    font-family: sans-serif;
+    position: relative;
+}
+.address
+{
+    text-align: center;
+    color: #fff;
+    font-size: 150%;
+    margin-top: -50px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.address:hover
+{
+    color: rgb(0, 234, 255);
+    transition: 1s;
+    cursor: text;
+}
+.mail
+{
+    margin-top: 10vh;
+    margin-left: 20vh;
+    padding: none;
+}
+.mail a
+{
+    color: #fff;
+    font-size: 150%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mail_x
+{
+    position: relative;
+    margin-left: 20vh;
+    margin-top: 20px;
+    justify-content: center;
+}
+.mail_x ul
+{
+    cursor: pointer;
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    margin-top: 20px;
+    padding: 5px;
+}
+.mail_x ul li
+{
+    font-size: 150%;
+}
+.mail_x ul li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.mail_x ul li a:hover
+{
+    color: aqua;
+    transition: .7s ease;
+}
+.addr
+{
+    color: #fff;
+    font-size: 150%;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+.logo_x
+{
+    margin-top: 170px;
+    margin-bottom: none;
+    margin-right: 5%;
+    opacity: 0.5;
+    padding: cover;
+    border: none;
+    border-radius: none;
+}

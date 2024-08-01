@@ -1,0 +1,60 @@
+body
+{
+    background-color: rgb(11, 20, 19);
+    background-size: cover;
+    background-position: flex;
+    font-family: sans-serif;
+}
+.field
+{
+    margin-top: -80px;
+    padding: 20px;
+}
+.tab
+{
+    margin-top: 10px;
+}
+.tcolor
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.table
+{
+    padding: 10px;
+}
+.table tr
+{
+    padding: 10px;
+}
+.table tr td
+{
+    padding: 10px;
+}
+.btn
+{
+    background: transparent;
+    text-align: center;
+    size: 30px;
+}
+.btn ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #000000;
+    margin-top: 10px;
+    padding: 20px;
+}
+.btn ul li
+{
+    width: flex;
+    height: flex;
+    margin: 0px;
+    padding: 10px;
+    color: #000000;
+    cursor: pointer;
+}
+.btn:hover
+{
+    color: aqua;
+}

@@ -1,0 +1,71 @@
+body
+{
+    background-image: url(dca.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.content
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    column-count: 1;
+    margin-left: 10%;
+    margin-right: 35%;
+    margin-top: -5%;
+    padding: none;
+    text-wrap: 10px;
+}
+.content
+{
+    text-indent: none;
+    letter-spacing: .1rem;
+    line-height: 1.7rem;
+    text-size-adjust: 35px;
+}
+.btn
+{
+    background: transparent;
+    text-align: left;
+    size: 30px;
+    margin-left: 5%;
+    list-style-type: disc;
+}
+.btn ol
+{
+    color: #fff;
+}
+.btn ol li
+{
+    width: flex;
+    height: flex;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+}
+.btn:hover
+{
+    color: aqua;
+}
+.sub
+{
+    background: transparent;
+    text-align: left;
+    size: 30px;
+    margin-left: 5%;
+    list-style-type: disc;
+}
+.sub ul
+{
+    display: inline-flex;
+}
+.sub ul li
+{
+    color: #fff;
+}
+.col
+{
+    column-count: 3;
+    margin-right: 40%;
+}
